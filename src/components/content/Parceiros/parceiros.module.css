@@ -1,0 +1,8 @@
+.parceiroContainerImage {
+    border: 1px solid #ccc;
+}
+
+.parceiroContainerImage img{
+    opacity: .4;
+    padding: 20px
+}

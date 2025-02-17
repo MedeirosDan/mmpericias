@@ -1,0 +1,44 @@
+.sobre hr.small {
+    border: solid #3190E7;
+    border-width: 2px 0 0;
+    clear: both;
+    height: 0;
+    margin: 21px 0 42px;
+    max-width: 100px;
+}
+
+.sobre h1 {
+    margin-bottom: 25px;
+    text-align: left;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.sobre h1 strong {
+    color: #3190E7;
+}
+
+.sobre h2 {
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.sobre h4 {
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.sobre ul {
+    list-style: initial;
+    margin: 1rem 0;
+    padding-left: 40px;
+}
+
+.sobre ul li {
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 300;
+}

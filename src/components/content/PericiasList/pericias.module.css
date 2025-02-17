@@ -1,0 +1,32 @@
+.list li svg {
+    height: 90px;
+}
+
+.list li {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10), 0 15px 12px rgba(0, 0, 0, 0.02);
+}
+
+.list li svg{
+    color: #3190E7;
+}
+
+.icons {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.infos {
+
+}
+
+.link {
+
+}

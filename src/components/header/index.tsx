@@ -1,5 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Link from 'next/link'
+import Image from 'next/image'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./header.module.css";
 
@@ -48,24 +50,28 @@ const Header = () => {
                 </div>
 
                 {/* Menu */}
-                <div className={`menu flex justify-between items-center bg-white shadow-md transition-all duration-300 ${
-                    isSticky ? "fixed top-0 left-0 w-full shadow-lg z-50" : "relative"
-                }
+                <div className={`menu flex justify-between items-center bg-white shadow-md transition-all duration-300 ${isSticky ? "fixed top-0 left-0 w-full shadow-lg z-50" : "relative"
+                    }
                 ${isSticky ? styles.fadeindown : ""}`}>
                     <div className="text-xl font-bold py-4 px-6">LOGO</div>
                     <div className="px-6">
                         <ul className={`${styles.headerMenuContainer} flex gap-6`}>
-                            <li><a href="/" className={styles.headerMenuItems}>Home</a></li>
-                            <li><a href="#" className={styles.headerMenuItems}>Sobre</a></li>
-                            <li><a href="#" className={styles.headerMenuItems}>Área de atuação</a></li>
-                            <li><a href="#" className={styles.headerMenuItems}>Contato</a></li>
+                            <li><Link href="/" className={styles.headerMenuItems}>Home</Link></li>
+                            <li><Link href="#" className={styles.headerMenuItems}>Sobre</Link></li>
+                            <li><Link href="#" className={styles.headerMenuItems}>Área de atuação</Link></li>
+                            <li><Link href="#" className={styles.headerMenuItems}>Contato</Link></li>
                         </ul>
                     </div>
                 </div>
             </div>
 
             <div className={`${styles.headerFullBanner} absolute inset-0 -z-10`}>
-                <img src="https://themes.audemedia.com/html/goodgrowth/images/1.jpg" alt="MM Pericias" className="w-full h-full object-cover" />
+                <Image
+                    src="/images/3.jpg"
+                    width={1866}
+                    height={911}
+                    alt="MMPericia"
+                />
             </div>
         </div>
     );

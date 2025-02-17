@@ -1,0 +1,91 @@
+.nossosNumeros h1 {
+    margin-bottom: 35px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -0.02em;
+    font-weight: 900;
+    line-height: 1.3;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    text-rendering: optimizelegibility;
+    font-size: 34px;
+}
+
+.nossosNumeros h1 strong {
+    color: #3190E7;
+}
+
+.nossosNumerosBox {
+    background: #3190E7;
+    position: relative;
+    z-index: 1;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10), 0 15px 12px rgba(0, 0, 0, 0.02);
+}
+
+.nossosNumerosBox h1 {
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.nossosNumerosBoxSmall {
+    min-width: 145px;
+    margin: 16px 0 16px -5px;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nossosNumber {
+    background: #2482d8;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #1773c7;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10), 0 15px 12px rgba(0, 0, 0, 0.02);
+    flex: 1;
+}
+
+.nossosNumber:first-child {
+    border-top-right-radius: 4px;
+}
+
+.nossosNumber:last-child {
+    border-bottom-right-radius: 4px;
+}
+
+.nossosNumerosBox h2 {
+    font-size: 23px;
+    color: var(--white);
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -0.02em;
+    font-weight: 900;
+    line-height: 1.3;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    text-rendering: optimizelegibility;
+}
+
+.nossosNumerosBox p {
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0 0 17px 0;
+    font-weight: 300;
+    color: var(--white);
+}
+
+.nossosNumber h5 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Lato', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nossosNumber h6 {
+    color: #fff;
+    font-size: 11px;
+    margin-top: 4px;
+}
